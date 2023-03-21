@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css.css"/>
+        <title>Yummy!</title>
+    </head>
+    <body>
+     <!--Navigation bar-->
+        <div class="nav">
+            <div class="Container">
+                <ul class="links">
+                    <li>Home</li>
+                    <li ><a href="#prod">Products </a></li>
+                    <li><a href="#send">Contact </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Header-->
+        <div class="header">
+            <img id="img"src="https://www.edulcorants.eu/wp-content/uploads/2017/03/sirop-de-ble.jpg"></img>
+            <p>Gastronomy is the art of using food to create happiness!</p>
+            </div>
+        <!--Slides-->
+        <div class="container">
+            <div class="slideSow">
+
+            
+              <ul class="slides">
+                <li class="active"><img src="https://www.recipetineats.com/wp-content/uploads/2020/09/Vanilla-Cupcakes-with-Vanilla-Swiss-Meringue-SQ.jpg" width=”600px” height=”100px” /></li>
+                <li class="slide2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzm0La11T7KslapFDcJaW03QwLQ3GB3xXCNQ&usqp=CAU" width=”600px” height=”100px”/></li>
+                <li class="slide3"><img src="https://hips.hearstapps.com/hmg-prod/images/delish-200511-seo-club-sandwich-h-14383-eb-1590780714.jpg?crop=0.8891228070175439xw:1xh;center,top&resize=1200:*" width=”600px” height=”100px”/></li>
+                </ul>
+              </div>
+            </div>
+              
+        <!--products-->
+            
+                <div class="products">
+                    <div class="Container">
+            
+                        <h2 id="prod">Our Products</h2>
+                            <ul class="categories">
+                                <li id="Titre">Bread</li>
+                                <li id="Cake"><a href="#Cake">Sweets </a></li>
+                                <li id="Titre"><a href="#Toast">Sandwitch </a></li>
+                            </ul>
+
+                            <div class="row">
+                                
+                                <div class="column">
+                                    
+                                    <figure>
+                                  <img src="https://mountik.com/2181-large_default/pain-de-mie-complet.jpg" alt="Snow" style="width:100%">
+                                  <input type="checkbox" id="product" data-price="2.00$">
+                                  <figcaption>normal Bread 2.00$</figcaption>
+                                  
+
+                                      
+                                </div>
+                                
+                                
+                                <div class="column">
+                                    <figure>
+                                  <img src="https://mountik.com/2181-large_default/pain-de-mie-complet.jpg" alt="Forest" style="width:100%" >
+                                  <input type="checkbox" id="product" data-price="2.50$">
+                                <figcaption>Crunchy Bread 2.50$</figcaption>
+                                    </figure>
+                                    
+                                </div>
+                                <div class="column">
+                                    <figure>
+                                  <img src="https://mountik.com/2181-large_default/pain-de-mie-complet.jpg" alt="Mountains" style="width:100%" >
+                                  <input type="checkbox" id="product" data-price="1.50$">
+                                  <figcaption>White Bread 1.50$</figcaption>
+                                  
+                                </figure>
+                               
+                                </div>
+        
+                              </div>
+                              
+                              
+                           
+                    
+                   </div>
+
+                </div>
+
+                <hr color="brown">
+                        <div class="Products">
+                        <div class="Container">
+                            <div class="row">
+                                <div class="column">
+                                    <figure>
+                                  <img src="https://www.bostongirlbakes.com/wp-content/uploads/2018/04/MG_5052.jpg" alt="Mountains" style="width:100%" >
+                                  <input type="checkbox" id="product" data-price="1.50$">
+                                  <figcaption id="Cake" >Vanila Cake 1.50$</figcaption>
+                                </figure>
+                                
+                                </div>
+                            
+
+                            
+                                <div class="column">
+                                    <figure>
+                                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrIsSHk3M_IEFWMWtP_ThLryKeQVj_rmy56A&usqp=CAU" alt="Mountains" style="width:80%" >
+                                  <input type="checkbox" id="product" data-price="2.25$">
+                                  <figcaption id="Cake" >Choclat Cake 2.25$</figcaption>
+                                </figure>
+                                
+                                </div>
+                              
+                                <div class="column">
+                                    <figure>
+                                    <img src="data:image/jpeg;base64,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" alt="Mountains" style="width:85%" >
+                                    <input type="checkbox" id="product" data-price="3.50$">
+                                    <figcaption> Strawberry Cake 3.50$</figcaption>
+                                </figure>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <hr color="brown">
+
+                        <div class="Products">
+                            <div class="Container">
+                                <div class="row">
+                                    <div class="column">
+                                        <figure>
+                                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIFAWTsftEiE0tgRkDmbuXPsPVc-lUazmsbvhAmCFEEsBdFJwAUbxKzs_vgb89qOx4qFs&usqp=CAU" alt="Mountains" style="width:100%"  style="height: 50%;">
+                                      <input type="checkbox" id="product" data-price="1.50$">
+                                      <figcaption id="Toast" >Toast 1.50$</figcaption>
+                                    </figure>
+                                    
+                                    </div>
+                                    <div class="column">
+                                        <figure>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8o1rp9EOI014Ojy2tHgAB0fuQTLLaUnBf4K1UGUbDUKbxirdTpP-zdCEbdJkGzqOfakA&usqp=CAU" alt="Mountains" style="width:75%" >
+                                        <input type="checkbox" id="product" data-price="3.50$">
+                                        <figcaption> Tacos 3.50$</figcaption>
+                                    </figure>
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <form>
+                                
+                            <div class="message">
+                                <p><input type="text" placeholder="Name" required name="Name"></p>
+                                <p><input  type="text" placeholder="Email" required name="Email"></p>
+                                <p><input  type="text" placeholder="Message" required name="Message"></p>
+                                <p><a href="http://127.0.0.1:5500/Contact.html" target="_blank"><button id="send" type="submit">Send</a></button></p>
+                            </div>
+                            </form>
+                            <p>Total price: $<span id="totalPrice">0.00</span></p>
+
+                            <footer>
+                                <p class="final">Phone Number:+216 56789000</p>
+                                <p class="final">Email:n.fadhlaoui@yahoo.com</p>
+                                <p class="final">Location:Ariana,tunis,1700</p>
+                            </footer>
+
+
+      
+        <script src="jquery-3.6.4.min.js"></script>
+        <script src="js.js"></script>
+        <script src="Orders.js"></script>
+        
+
+    </body>
+</html>
